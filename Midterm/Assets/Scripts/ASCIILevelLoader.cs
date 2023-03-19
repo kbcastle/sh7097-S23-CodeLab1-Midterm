@@ -15,6 +15,9 @@ public class ASCIILevelLoader : MonoBehaviour
 
     public Vector2 startPos;
 
+    public int xOffset = -3;
+    public int yOffset = -2;
+
     private GameObject level;
     private GameObject currentPlayer;
     
@@ -92,7 +95,7 @@ public class ASCIILevelLoader : MonoBehaviour
                 if (newObject != null)
                 {
                     newObject.transform.position =
-                        new Vector2(xPos, yPos);
+                        new Vector2(xPos + xOffset, yPos + yOffset);
                     newObject.transform.parent = level.transform;
                 }
             }

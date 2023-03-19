@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManagerHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 8594796344735325044, guid: 79980b8337aeb8d45815132780476268, type: 3}
+      propertyPath: startPos.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594796344735325044, guid: 79980b8337aeb8d45815132780476268, type: 3}
+      propertyPath: startPos.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79980b8337aeb8d45815132780476268, type: 3}
 --- !u!1 &519420028
@@ -234,7 +242,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -272,7 +280,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3d37174169777b45841b1c0bdf4c9cd, type: 3}
   m_Name: 

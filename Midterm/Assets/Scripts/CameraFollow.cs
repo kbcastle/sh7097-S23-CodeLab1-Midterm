@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
-        this.transform.position = new Vector3(followPosition.position.x, followPosition.position.y);
+        this.transform.position = new Vector3(followPosition.position.x, followPosition.position.y, -10);
     }
 
     // Start is called before the first frame update
